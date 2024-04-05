@@ -1,0 +1,77 @@
+PS C:\Users\dutta\OneDrive\Desktop\C PROGRAMMING\STUDENTGRADEMANAGEMENT> cd "c:\Users\dutta\OneDrive\Desktop\C PROGRAMMING\STUDENTGRADEMANAGEMENT\" ; if ($?) { gcc p2.c -o p2 } ; if ($?) { .\p2 }      
+
+Options:
+1. Add a student
+2. Add scores for a student
+3. Display summary
+4. Exit
+Enter your choice: 1
+Enter student name: ayush
+Student added successfully!
+
+Options:
+1. Add a student
+2. Add scores for a student
+3. Display summary
+4. Exit
+Enter your choice: 2
+Enter student name: ayush
+Enter scores for ayush (space in between) out of 100: 90
+90
+90
+90
+90
+Scores added successfully!
+
+Options:
+1. Add a student
+2. Add scores for a student
+3. Display summary
+4. Exit
+Enter your choice: 1
+Enter student name: sumit
+Student added successfully!
+
+Options:
+1. Add a student
+2. Add scores for a student
+3. Display summary
+4. Exit
+Enter your choice: 2
+Enter student name: sumit 
+Enter scores for sumit (space in between) out of 100: 90
+90
+45
+67
+89
+Scores added successfully!
+
+Options:
+1. Add a student
+2. Add scores for a student
+3. Display summary
+4. Exit
+Enter your choice: 3
+
+Student Name: ayush
+Scores: 90.00 90.00 90.00 90.00 90.00
+Average Score: 90.00
+Highest Score: 90.00
+Lowest Score: 90.00
+Grade is A+
+
+Student Name: sumit
+Scores: 90.00 90.00 45.00 67.00 89.00
+Average Score: 76.20
+Highest Score: 90.00
+Lowest Score: 45.00
+Grade is B+
+
+Options:
+1. Add a student
+2. Add scores for a student
+3. Display summary
+4. Exit
+Enter your choice: 4
+Exiting program.
+PS C:\Users\dutta\OneDrive\Desktop\C PROGRAMMING\STUDENTGRADEMANAGEMENT>        
